@@ -14,6 +14,7 @@ function App() {
           <h1 className="scoreCount">
             {
               // show "score" here
+              score
             }
           </h1>
         </div>
@@ -22,6 +23,7 @@ function App() {
           <h1 className="wicketCount">
             {
               // show wicket here
+              wicket
             }
           </h1>
         </div>
@@ -33,6 +35,7 @@ function App() {
               // Show Over here in the format: "over.ball" eg: 4.5 means 4th over and 5th ball
               // if 1 more ball is thrown then over is now 5.0
               // you have to write logic to form this string from current ball number.
+              over
             }
           </h1>
         </div>
